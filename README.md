@@ -6,13 +6,17 @@ Convert plist to xml readable file
 Create the LaunchAgent file
 
 
+
 mkdir -p ~/Library/LaunchAgents
 
-nano ~/Library/LaunchAgents/com.example.daily-task.plist
+nano ~/Library/LaunchAgents/com.example.updateDate.plist
+
 
 Paste to xml file in XML folder
 
+
 Enable service
+
 
 plutil -lint ~/Library/LaunchAgents/com.example.updateDate.plist
 
